@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase testing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+         <form >
+           
+             <label for="firstname">First Name</label><br>
+             <input type="text" name="firstName" id="firstName"><br>
+             <label for="lastname">Last Name</label><br>
+             <input type="text" name="lastName" id="lastName"><br>
+             <label for="age">AGE</label><br>
+             <input type="text" name="age" id="age"><br>
+             <button id="addBtn" class="">Add</button>
+             <button id="updateBtn">Update</button>
+             <button id="removeBtn" style="background-color: red; ">Remove</button>
+
+         </form>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js"></script>
+    <script src="app.js"> </script>
+</body>
+</html>
